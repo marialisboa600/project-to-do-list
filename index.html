@@ -6,23 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+        </style>
 </head>
 <body>
-        <div class="conteiner-pai">
-            <div class="conteiner-filho">
-                <header>Minha Lista de Tarefas</header> 
-                <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p> 
-                <ol id="lista-tarefas"> </ol>
-                <input id="texto-tarefa" type="text">
-                <div class="button">
-                    <button id="criar-tarefa">Criar</button>
-                    <button id="apaga-tudo">Apagar tudo</button>
-                    <button id="salvar-tarefas">Salvar</button>
-                    <button id="mover-cima">Mover a cima</button>
-                    <button id="mover-baixo">Mover a baixo</button>
-                </div>
-            </div>  
-     </div>
+       
+    <div class="conteiner-filho">
+        <header>Minha Lista de Tarefas</header> 
+        <div class="In-e-Buttons">  
+            <ol id="lista-tarefas"> </ol>
+            <input id="texto-tarefa" type="text">
+                <button id="criar-tarefa">Criar</button>
+                <button id="apaga-tudo">Apagar tudo</button>
+        </div>
+        <p id="funcionamento">**Clique duas vezes em um item para marcá-lo como completo**</p> 
+    </div>  
+
    
     <script src="script.js"></script>
 </body>
